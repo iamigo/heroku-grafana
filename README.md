@@ -77,6 +77,7 @@ heroku pg:credentials:url DATABASE
 
 #### Deploy
 
+0. Set git remote: `heroku git:remote --app <YOUR APP NAME>
 1. Deploy: `git push heroku master`
 2. View the running app: `heroku open`
 
